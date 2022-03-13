@@ -8,13 +8,17 @@
 
 int main(void)
 {
-int num;
+char base_16;
 
-for (num = 0; num <= 16; num++)
+for (base_16 = 48; base_16 <=57; base_16++)
 {
-putchar(num);
+putchar(base_16);
 }
-putchar('\n');
 
+for (base_16 = 97; base_16 <= 102; base_16++)
+{
+putchar(base_16);
+}
+putchar('/n');
 return (0);
 }
