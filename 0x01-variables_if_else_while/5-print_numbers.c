@@ -12,7 +12,7 @@ int num;
 
 for (num = 0; num < 10; num++)
 {
-printf("%i", num);
+printf("%i\n", num);
 }
 return (0);
 }
