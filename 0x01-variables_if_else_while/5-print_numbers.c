@@ -8,10 +8,11 @@
 
 int main(void)
 {
-int snum;
+int num;
 
-for (snum = 0; snum < 10; snum++)
+for (num = 0; num < 10; num++)
 {
-printf("%snum", snum);
+printf("%inum", num);
 }
+return (0);
 }
