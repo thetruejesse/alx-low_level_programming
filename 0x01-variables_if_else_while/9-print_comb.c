@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
- * Return; Always 0
+ * Return; Always 0 (Success/correct)
  */
 
 int main(void)
@@ -18,8 +18,8 @@ if(num == 57)
 {
 break;
 }
+putchar(',');
 putchar('\n');
-putchar(' ');
 }
 
 return (0);
