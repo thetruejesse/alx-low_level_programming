@@ -1,55 +1,31 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
-<<<<<<< HEAD
- *   * main - Prints numbers from 00 to 99
- *     *
- *       * Return: Always (Success)
- *         */
+ * main - Entry point
+ *
+ * Return 0: always a success
+ */
 int main(void)
 {
-		int c, i;
-			c = i = '0';
-				for (c = '0'; c <= '9'; c++)
-						{
-									for (i = '0'; i <= '9'; i++)
-												{
-																putchar(c);
-																			putchar(i);
+int n;
 
-																						if ((c != '9') || (c == '9' && i != '9'))
-																										{
-																															putchar(',');
-																																			putchar(' ');
-																																						}
-																								}
-										}
-					putchar('\n');
-						return (0);
-=======
-  * main - Prints numbers from 00 to 99
-  *
-  * Return: Always (Success)
-  */
-int main(void)
+srand(time(0));
+n = rand() - RAND_MAX /2;
+
+if (n > 0)
 {
-	int c, i;
-	c = i = '0';
-	for (c = '0'; c <= '9'; c++;)
-	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			putchar(c);
-			putchar(i);
+printf("%d is positive\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is negative\n", n);
+}
 
-			if ((c != '9') || (c == '9' && i != '9'))
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
->>>>>>> 493e4736130c76738b4577ce35cee04871e2f546
+return (0);
 }
