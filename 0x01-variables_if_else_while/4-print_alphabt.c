@@ -14,7 +14,7 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 if (alpha == 'q')
 continue;
-else (alpha == 'e')
+else if (alpha == 'e')
 continue;
 
 putchar(alpha);
