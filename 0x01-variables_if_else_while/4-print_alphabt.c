@@ -10,10 +10,14 @@ int main(void)
 {
 char alpha;
 
-for (alpha = 'a'; alpha != 'q' && alpha != 'e'; alpha <= 'z')
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
+if (alpha == 'q')
+continue;
+else (alpha == 'e')
+continue;
+
 putchar(alpha);
-alpha++;
 }
 putchar('\n');
 
