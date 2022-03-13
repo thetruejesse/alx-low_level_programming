@@ -10,13 +10,13 @@ int main(void)
 char lowalpha;
 char upalpha;
 
+for (lowalpha = 'a'; lowalpha <= 'z'; upalpha++)
+{
+putchar(lowalpha);
+}
 for (upalpha = 'A'; upalpha <= 'Z'; upalpha++)
 {
 putchar(upalpha);
-}
-for (lowalpha = 'a'; lowalpha <= 'z'; lowalpha++)
-{
-putchar(lowalpha);
 }
 putchar('\n');
 return (0);
