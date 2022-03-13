@@ -19,6 +19,7 @@ if (num == 57)
 break;
 }
 putchar(',');
+putchar(' ');
 }
 putchar('\n');
 
