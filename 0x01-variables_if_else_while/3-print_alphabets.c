@@ -18,5 +18,6 @@ for (lowalpha = 'a'; lowalpha <= 'z'; lowalpha++)
 {
 putchar(lowalpha);
 }
+putchar('\n');
 return (0);
 }
