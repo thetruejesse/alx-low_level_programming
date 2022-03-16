@@ -3,6 +3,7 @@
 /**
  * _islower - fdjklalsdj
  * @c: contains value to be compared
+ * return: 1 if lower
  * return: Always 0
  */
 
