@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - fjdklsa
- *
+ * _islower - My single line description
+ * c: contains value to be compared
  * return 0: code success
  */
 
