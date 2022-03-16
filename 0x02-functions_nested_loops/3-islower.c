@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - My single line description
- * c: contains value to be compared
- * return 0: code success
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * return: Always 0
  */
 
 int _islower(int c)
