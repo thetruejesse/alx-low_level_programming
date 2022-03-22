@@ -1,19 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-/*
- * main - Entry point to code
+
+/**
+ *reset_to_98 - updates a integer value to 98
+ *@n: A pointer to an int that will be updated
  *
- * Return: 0 Always
+ *Return: void that means is correct
  */
 
-int main(void)
+void reset_to_98(int *n)
+
 {
-int i = 0;
-
-int* p = &i;
-
-*p = 98;
-
-
-return 0;
+*n = 98;
 }
