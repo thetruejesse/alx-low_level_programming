@@ -12,7 +12,7 @@ int i = 0;
 
 int* p = &i;
 
-p = 98;
+*p = 98;
 
 
 return 0;
