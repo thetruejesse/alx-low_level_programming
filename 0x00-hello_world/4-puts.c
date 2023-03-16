@@ -1,12 +1,13 @@
 #include <stdio.h>
 /*
- * program that prints string to stdio
+ * main - entry point of the program
+ *
  *
  * return: 0
  */
 
-int main()
+int main(void)
 {
-	printf("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return 0;
 }
