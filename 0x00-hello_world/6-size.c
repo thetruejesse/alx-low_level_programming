@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * int main - entry point to the program
  * program displays size of datatypes
  *
- * return; 0.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
