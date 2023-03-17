@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * int main - entry point to the program
+ * main - entry point to the program
  * program displays size of datatypes
  *
  * Return: Always 0 (success)
