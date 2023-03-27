@@ -1,5 +1,6 @@
 /**
- * reset_to_98 - method to reset in main to 98.
+ * reset_to_98 - method to reset in main to 98
+ * @n: pointer to dereference.
  *
  * Return: nothing.
  */
