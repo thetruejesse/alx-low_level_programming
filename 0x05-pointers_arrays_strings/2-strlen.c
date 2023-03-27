@@ -4,11 +4,11 @@
  *
  * Return: nothing.
  */
-int _strlen(char *s[])
+int _strlen(char *s)
 {
-	int s;
-	for (s = 0, s != '\0', s++)
+	int count;
+	for (count = 0, str[count] != '\0', count++)
 	{
-	return s;
+	return count;
 	}
 }
