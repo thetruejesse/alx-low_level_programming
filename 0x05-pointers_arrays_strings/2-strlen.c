@@ -6,9 +6,9 @@
  */
 int _strlen(char *s)
 {
-	int count;
-	for (count = 0, str[count] != '\0', count++)
+	int s;
+	for (s = 0, s != '\0', s++)
 	{
-	return count;
+	return s;
 	}
 }
