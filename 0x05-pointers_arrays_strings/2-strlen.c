@@ -2,12 +2,14 @@
  * _strlen - function that counts number of chars in a string
  * @s: pointer to first char in string
  *
- * Return: nothing.
+ * Return: 1.
  */
 int _strlen(char *s)
 {
-	for (s = 0, s != '\0', s++)
+	int len = 0;
+	while(*s++)
 	{
-	return s;
+	i++;
+	return (1);
 	}
 }
