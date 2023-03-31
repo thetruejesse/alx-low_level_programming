@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <string.h>
 /**
- * main - Entry point to the program
+ * _strcat - function that cats 2 strings
  * @dest: First string to be catted
  * @src: Second string to be catted
  *
@@ -9,18 +7,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	size_t ldest = strlen(dest);
-	size_t lsrc = strlen(src);
+	int i = 0, j;
 
-	char *result = malloc(ldest + lsrc + 1);
+	while (dest[i])
+		i++;
+	for(j = 0; src[j]; j++)
+		dest[i +j] = src[j];
 
-	if (result == NULL)
-	{
-		return NULL;
-	}
+	dest[i + j]; = '\0';
 
-	strcat(result, dest);
-	strcat(result + ldest, src);
-
-	return result;
+	return (dest);
 }
