@@ -2,8 +2,10 @@
 #include <string.h>
 /**
  * main - Entry point to the program
+ * @dest: First string to be catted
+ * @src: Second string to be catted
  *
- * Return: Always 0. SUCCESS
+ * Return: result of the concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -20,5 +22,5 @@ char *_strcat(char *dest, char *src)
 	strcat(result, dest);
 	strcat(result + ldest, src);
 
-	return (0);
+	return result;
 }
