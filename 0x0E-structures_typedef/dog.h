@@ -1,14 +1,19 @@
-#include <stdio.h>
+#ifndef _DOG_H
+#define _DOG_H
 
 /**
  * struct dog - new dog type
  *
- * Return: nothing
+ * @name: element to be named
+ * @age: age of the dog
+ * @owner: name of the owner
  */
 
 struct dog
 {
-	char * name;
+	char *name;
 	float age;
-	char * owner;
+	char *owner;
 };
+
+#endif
