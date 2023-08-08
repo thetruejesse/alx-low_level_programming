@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 	{
 		for (count = 1; count < argc; count++)
 		{
-			
 		}
 		printf("%d\n", argc - 1);
 	}
